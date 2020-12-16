@@ -57,16 +57,16 @@ Bio : 250
 username : 150
 
 
-## Change Password!
+## Change Password
 パスワードが数字のみではないかなどはローカルで確認をするようにしてください
 
 
 ## Delegate
-デリゲートとは！ここでは、処理を任せて、終わったら伝えること！
+処理を任せて、終わったら伝えること
  使用法
  
  ```swift
-    ServerClassDelegate //を継承して
+    ServerStructDelegate //を適合して
     let Server = ServerStruct()
     Server.delegate = self 
  
@@ -76,7 +76,7 @@ username : 150
 ```
 
 ## Post Detail
-PostDetail() を呼び出す際には、必ず
+PostDetail() Viewを呼び出す際には、とりあえずこれを呼び出してください。
 
 ```swift
     NotificationCenter.default.post(name: .hide, object: nil)//Hide Footer
@@ -108,7 +108,6 @@ show footer and status bar:
 
 #### Personal Memo:
 観光名所ごと
-ゲーム要素
 写真と言葉の共存
 ハッシュタグボタン
 文字数制限
